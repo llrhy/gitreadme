@@ -1,0 +1,2 @@
+lidar_align_tool:rostest:selection_patch
+-DCATKIN_WHITELIST_PACKAGES=lidar_align_tool -DCATKIN_DEVEL_PREFIX=/home/huituo/workspace/waytous/RosApp/devel -DCMAKE_INSTALL_PREFIX=/home/huituo/workspace/waytous/RosApp/install -G Unix Makefiles

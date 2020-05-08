@@ -1,0 +1,8 @@
+prefix=/home/huituo/workspace/waytous/RosApp/install
+
+Name: rostest
+Description: Description of rostest
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

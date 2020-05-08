@@ -1,0 +1,8 @@
+prefix=/home/huituo/workspace/waytous/RosApp/install
+
+Name: selection_patch
+Description: Description of selection_patch
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

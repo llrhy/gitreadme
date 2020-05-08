@@ -1,0 +1,8 @@
+prefix=/home/huituo/workspace/waytous/RosApp/devel
+
+Name: lidar_align_tool
+Description: Description of lidar_align_tool
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
