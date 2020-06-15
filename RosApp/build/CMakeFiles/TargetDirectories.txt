@@ -48,7 +48,6 @@
 /home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir
 /home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/nodelet_generate_messages_nodejs.dir
 /home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/pcl_msgs_generate_messages_eus.dir
-/home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/align_mainwindow.dir
 /home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir
 /home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
@@ -123,4 +122,3 @@
 /home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/tf2_msgs_generate_messages_py.dir
 /home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir
 /home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/align_adjust_node_autogen.dir
-/home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/align_mainwindow_autogen.dir

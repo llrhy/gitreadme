@@ -116,7 +116,7 @@ selection_patch_EXTERNAL_OBJECTS =
 /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: selection_patch/CMakeFiles/selection_patch.dir/src/selection_patch.cpp.o
 /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: selection_patch/CMakeFiles/selection_patch.dir/selection_patch_autogen/mocs_compilation.cpp.o
 /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: selection_patch/CMakeFiles/selection_patch.dir/build.make
-/home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /home/huituo/anaconda3/lib/libQt5Widgets.so.5.6.2
+/home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
 /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /opt/ros/melodic/lib/librviz.so
 /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
 /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
@@ -348,8 +348,8 @@ selection_patch_EXTERNAL_OBJECTS =
 /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /home/huituo/anaconda3/lib/libQt5Gui.so.5.6.2
-/home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /home/huituo/anaconda3/lib/libQt5Core.so.5.6.2
+/home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
+/home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so: selection_patch/CMakeFiles/selection_patch.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huituo/workspace/waytous/RosApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/huituo/workspace/waytous/RosApp/devel/lib/libselection_patch.so"
 	cd /home/huituo/workspace/waytous/RosApp/build/selection_patch && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/selection_patch.dir/link.txt --verbose=$(VERBOSE)

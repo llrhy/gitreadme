@@ -5,7 +5,7 @@ namespace calibration{
 namespace gui{
 InitSub::InitSub()
 {
-    std::cout<<"初始化对象成功"<<std::endl;
+    // std::cout<<"初始化对象成功"<<std::endl;
     int argc = 0; char **argv = NULL;
     ros::init(argc, argv, "init");
     ros::start(); 

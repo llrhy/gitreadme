@@ -288,21 +288,6 @@ pcl_msgs_generate_messages_eus/fast:
 .PHONY : pcl_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
-lidar_align_tool/CMakeFiles/align_mainwindow.dir/rule:
-	cd /home/huituo/workspace/waytous/RosApp/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_align_tool/CMakeFiles/align_mainwindow.dir/rule
-.PHONY : lidar_align_tool/CMakeFiles/align_mainwindow.dir/rule
-
-# Convenience name for target.
-align_mainwindow: lidar_align_tool/CMakeFiles/align_mainwindow.dir/rule
-
-.PHONY : align_mainwindow
-
-# fast build rule for target.
-align_mainwindow/fast:
-	cd /home/huituo/workspace/waytous/RosApp/build && $(MAKE) -f lidar_align_tool/CMakeFiles/align_mainwindow.dir/build.make lidar_align_tool/CMakeFiles/align_mainwindow.dir/build
-.PHONY : align_mainwindow/fast
-
-# Convenience name for target.
 lidar_align_tool/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
 	cd /home/huituo/workspace/waytous/RosApp/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_align_tool/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : lidar_align_tool/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
@@ -1382,21 +1367,6 @@ align_adjust_node_autogen/fast:
 	cd /home/huituo/workspace/waytous/RosApp/build && $(MAKE) -f lidar_align_tool/CMakeFiles/align_adjust_node_autogen.dir/build.make lidar_align_tool/CMakeFiles/align_adjust_node_autogen.dir/build
 .PHONY : align_adjust_node_autogen/fast
 
-# Convenience name for target.
-lidar_align_tool/CMakeFiles/align_mainwindow_autogen.dir/rule:
-	cd /home/huituo/workspace/waytous/RosApp/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_align_tool/CMakeFiles/align_mainwindow_autogen.dir/rule
-.PHONY : lidar_align_tool/CMakeFiles/align_mainwindow_autogen.dir/rule
-
-# Convenience name for target.
-align_mainwindow_autogen: lidar_align_tool/CMakeFiles/align_mainwindow_autogen.dir/rule
-
-.PHONY : align_mainwindow_autogen
-
-# fast build rule for target.
-align_mainwindow_autogen/fast:
-	cd /home/huituo/workspace/waytous/RosApp/build && $(MAKE) -f lidar_align_tool/CMakeFiles/align_mainwindow_autogen.dir/build.make lidar_align_tool/CMakeFiles/align_mainwindow_autogen.dir/build
-.PHONY : align_mainwindow_autogen/fast
-
 align_adjust_node_autogen/mocs_compilation.o: align_adjust_node_autogen/mocs_compilation.cpp.o
 
 .PHONY : align_adjust_node_autogen/mocs_compilation.o
@@ -1423,33 +1393,6 @@ align_adjust_node_autogen/mocs_compilation.s: align_adjust_node_autogen/mocs_com
 align_adjust_node_autogen/mocs_compilation.cpp.s:
 	cd /home/huituo/workspace/waytous/RosApp/build && $(MAKE) -f lidar_align_tool/CMakeFiles/align_adjust_node.dir/build.make lidar_align_tool/CMakeFiles/align_adjust_node.dir/align_adjust_node_autogen/mocs_compilation.cpp.s
 .PHONY : align_adjust_node_autogen/mocs_compilation.cpp.s
-
-align_mainwindow_autogen/mocs_compilation.o: align_mainwindow_autogen/mocs_compilation.cpp.o
-
-.PHONY : align_mainwindow_autogen/mocs_compilation.o
-
-# target to build an object file
-align_mainwindow_autogen/mocs_compilation.cpp.o:
-	cd /home/huituo/workspace/waytous/RosApp/build && $(MAKE) -f lidar_align_tool/CMakeFiles/align_mainwindow.dir/build.make lidar_align_tool/CMakeFiles/align_mainwindow.dir/align_mainwindow_autogen/mocs_compilation.cpp.o
-.PHONY : align_mainwindow_autogen/mocs_compilation.cpp.o
-
-align_mainwindow_autogen/mocs_compilation.i: align_mainwindow_autogen/mocs_compilation.cpp.i
-
-.PHONY : align_mainwindow_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-align_mainwindow_autogen/mocs_compilation.cpp.i:
-	cd /home/huituo/workspace/waytous/RosApp/build && $(MAKE) -f lidar_align_tool/CMakeFiles/align_mainwindow.dir/build.make lidar_align_tool/CMakeFiles/align_mainwindow.dir/align_mainwindow_autogen/mocs_compilation.cpp.i
-.PHONY : align_mainwindow_autogen/mocs_compilation.cpp.i
-
-align_mainwindow_autogen/mocs_compilation.s: align_mainwindow_autogen/mocs_compilation.cpp.s
-
-.PHONY : align_mainwindow_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-align_mainwindow_autogen/mocs_compilation.cpp.s:
-	cd /home/huituo/workspace/waytous/RosApp/build && $(MAKE) -f lidar_align_tool/CMakeFiles/align_mainwindow.dir/build.make lidar_align_tool/CMakeFiles/align_mainwindow.dir/align_mainwindow_autogen/mocs_compilation.cpp.s
-.PHONY : align_mainwindow_autogen/mocs_compilation.cpp.s
 
 src/adjust_node.o: src/adjust_node.cc.o
 
@@ -1524,7 +1467,6 @@ help:
 	@echo "... pcl_msgs_generate_messages_nodejs"
 	@echo "... nodelet_generate_messages_nodejs"
 	@echo "... pcl_msgs_generate_messages_eus"
-	@echo "... align_mainwindow"
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -1599,13 +1541,9 @@ help:
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... align_adjust_node_autogen"
-	@echo "... align_mainwindow_autogen"
 	@echo "... align_adjust_node_autogen/mocs_compilation.o"
 	@echo "... align_adjust_node_autogen/mocs_compilation.i"
 	@echo "... align_adjust_node_autogen/mocs_compilation.s"
-	@echo "... align_mainwindow_autogen/mocs_compilation.o"
-	@echo "... align_mainwindow_autogen/mocs_compilation.i"
-	@echo "... align_mainwindow_autogen/mocs_compilation.s"
 	@echo "... src/adjust_node.o"
 	@echo "... src/adjust_node.i"
 	@echo "... src/adjust_node.s"

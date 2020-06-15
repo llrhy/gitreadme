@@ -132,6 +132,11 @@
        </item>
        <item>
         <property name="text">
+         <string>test</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
          <string>lidar16</string>
         </property>
        </item>

@@ -248,33 +248,41 @@ public:
         actionAbout_Qt->setText(QApplication::translate("MainWindowDesign", "About &Qt", 0 ));
         comboBox->clear();
         comboBox->insertItems(0, QStringList()
-         << QApplication::translate("MainWindowDesign", "lidar64", 0 )
-         << QApplication::translate("MainWindowDesign", "lidar16", 0 )
-         << QApplication::translate("MainWindowDesign", "radar", 0 )
-         << QApplication::translate("MainWindowDesign", "sick", 0 )
+         << QApplication::translate("MainWindowDesign", "/ouster_front_16/os1_cloud_node_front_16/points/ouster_front/os1_cloud_node/points", 0 )
+         << QApplication::translate("MainWindowDesign", "/ouster_front/os1_cloud_node/points", 0 )
+         << QApplication::translate("MainWindowDesign", "/ouster_back/os1_cloud_node_back/points", 0 )
+         << QApplication::translate("MainWindowDesign", "/esr_node/esrCloud", 0 )
+         << QApplication::translate("MainWindowDesign", "/left/velodyne_points", 0 )
+         << QApplication::translate("MainWindowDesign", "/right/velodyne_points", 0 )
         );
         comboBox_2->clear();
         comboBox_2->insertItems(0, QStringList()
-         << QApplication::translate("MainWindowDesign", "esr", 0 )
+         << QApplication::translate("MainWindowDesign", "base_link", 0 )
          << QApplication::translate("MainWindowDesign", "cloud", 0 )
          << QApplication::translate("MainWindowDesign", "os1_lidar", 0 )
-         << QApplication::translate("MainWindowDesign", "velodyne", 0 )
+         << QApplication::translate("MainWindowDesign", "esr", 0 )
+         << QApplication::translate("MainWindowDesign", "leftVLP", 0 )
+         << QApplication::translate("MainWindowDesign", "rightVLP", 0 )
         );
         label->setText(QApplication::translate("MainWindowDesign", "topic1:", 0 ));
         label_2->setText(QApplication::translate("MainWindowDesign", "topic2:", 0 ));
         comboBox_3->clear();
         comboBox_3->insertItems(0, QStringList()
-         << QApplication::translate("MainWindowDesign", "lidar64", 0 )
-         << QApplication::translate("MainWindowDesign", "lidar16", 0 )
-         << QApplication::translate("MainWindowDesign", "radar", 0 )
-         << QApplication::translate("MainWindowDesign", "sick", 0 )
+         << QApplication::translate("MainWindowDesign", "/ouster_front/os1_cloud_node/points", 0 )
+         << QApplication::translate("MainWindowDesign", "/ouster_front_16/os1_cloud_node_front_16/points", 0 )
+         << QApplication::translate("MainWindowDesign", "/ouster_back/os1_cloud_node_back/points", 0 )
+         << QApplication::translate("MainWindowDesign", "/esr_node/esrCloud", 0 )
+         << QApplication::translate("MainWindowDesign", "/left/velodyne_points", 0 )
+         << QApplication::translate("MainWindowDesign", "/right/velodyne_points", 0 )
         );
         comboBox_4->clear();
         comboBox_4->insertItems(0, QStringList()
-         << QApplication::translate("MainWindowDesign", "esr", 0 )
+         << QApplication::translate("MainWindowDesign", "base_link", 0 )
          << QApplication::translate("MainWindowDesign", "cloud", 0 )
          << QApplication::translate("MainWindowDesign", "os1_lidar", 0 )
-         << QApplication::translate("MainWindowDesign", "velodyne", 0 )
+         << QApplication::translate("MainWindowDesign", "esr", 0 )
+         << QApplication::translate("MainWindowDesign", "leftVLP", 0 )
+         << QApplication::translate("MainWindowDesign", "rightVLP", 0 )
         );
         comboBox_5->clear();
         comboBox_5->insertItems(0, QStringList()

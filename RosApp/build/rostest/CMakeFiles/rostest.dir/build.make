@@ -352,9 +352,9 @@ rostest_EXTERNAL_OBJECTS =
 /home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /usr/lib/x86_64-linux-gnu/libvtkCommonSystem-6.3.so.6.3.0
 /home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /usr/lib/x86_64-linux-gnu/libvtksys-6.3.so.6.3.0
 /home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.3.so.6.3.0
-/home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /home/huituo/anaconda3/lib/libQt5Widgets.so.5.6.2
-/home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /home/huituo/anaconda3/lib/libQt5Gui.so.5.6.2
-/home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /home/huituo/anaconda3/lib/libQt5Core.so.5.6.2
+/home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
+/home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
+/home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 /home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /opt/ros/melodic/lib/libcv_bridge.so
 /home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
 /home/huituo/workspace/waytous/RosApp/devel/lib/rostest/rostest: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0

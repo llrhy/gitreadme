@@ -1,6 +1,6 @@
 #include "rostest/main_window.h"
-#include <QtWidgets>
-#include <QApplication>
+// #include <QtWidgets>
+// #include <QApplication>
 #include <ros/ros.h>
 
 

@@ -734,9 +734,9 @@ align_mainwindow_EXTERNAL_OBJECTS =
 /home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingLIC-6.3.so.6.3.0
 /home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersTexture-6.3.so.6.3.0
 /home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /usr/lib/x86_64-linux-gnu/libvtkGUISupportQt-6.3.so.6.3.0
-/home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /home/huituo/anaconda3/lib/libQt5Widgets.so.5.6.2
-/home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /home/huituo/anaconda3/lib/libQt5Gui.so.5.6.2
-/home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /home/huituo/anaconda3/lib/libQt5Core.so.5.6.2
+/home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
+/home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
+/home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 /home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersAMR-6.3.so.6.3.0
 /home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /usr/lib/x86_64-linux-gnu/libvtkParallelCore-6.3.so.6.3.0
 /home/huituo/workspace/waytous/RosApp/devel/lib/libalign_mainwindow.so: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-6.3.so.6.3.0

@@ -1,20 +1,31 @@
 <?xml version="1.0"?>
 
 <launch>
+  <!-- <arg name="base_lidar" default=" /ouster_front/os1_cloud_node/points" /> -->
+  <!-- <arg name="base_lidar" default="/ouster_front_16/os1_cloud_node_front_16/points" /> -->
+  <!-- <arg name="base_lidar_frame_id" default="base_link" /> -->
+  <!-- <arg name="sensor_onlyone" default="/ouster_front_16/os1_cloud_node_front_16/points" /> -->
   <!-- <arg name="sensor_onlyone" default="/ouster_front/os1_cloud_node/points" /> -->
-  <!-- <arg name="sensor_onlyone" default="/pub_creat_lidar" /> -->
-  <arg name="base_lidar" default="/rslidar_points_base" />
-  <arg name="base_lidar_frame_id" default="base_link" />
-  <arg name="sensor_onlyone" default="rslidar_points" />
-  <arg name="sensor_onlyone_frame_id" default="base_link" />
-  <arg name="lidar_lidar_1"  default="/left/velodyne_points" />
-  <arg name="lidar_lidar_2"  default="/right/velodyne_points" />
-  <!-- <arg name="lidar_lidar_2"  default="/cut_plane" /> -->
-  <arg name="lidar_radar_1"  default="/ouster_front/os1_cloud_node/points" />
-  <arg name="lidar_radar_2"  default="esr/node" />
-  <arg name="lidar_lidar_frame_id_1"  default="leftVLP" />
-  <arg name="lidar_lidar_frame_id_2"  default="rightVLP" />
-
+  <!-- <arg name="sensor_onlyone" default="/esr_node/esrCloud" /> -->
+  <!-- <arg name="sensor_onlyone" default="/srr_node_fr/rightCloud" /> -->
+  <!-- <arg name="sensor_onlyone" default="/ouster_front/os1_cloud_node/points" /> -->
+  <!-- <arg name="sensor_onlyone" default="/ouster_back/os1_cloud_node_back/points" /> -->
+  <!-- 
+  /ouster_front/os1_cloud_node/points
+  /ouster_front_16/os1_cloud_node_front_16/points
+  /ouster_back/os1_cloud_node_back/points
+  /cloud
+  /esr_node/esrCloud
+  /srr_node_fr/rightCloud
+  /srr_node_fl/leftCloud
+   -->
+  <!-- <arg name="sensor_onlyone_frame_id" default="base_link" /> -->
+  <!-- <arg name="lidar_lidar_1"  default="/left/velodyne_points" /> -->
+  <!-- <arg name="lidar_lidar_2"  default="/right/velodyne_points" /> -->
+  <!-- <arg name="lidar_radar_1"  default="/ouster_front/os1_cloud_node/points" /> -->
+  <!-- <arg name="lidar_radar_2"  default="esr/node" /> -->
+  <!-- <arg name="lidar_lidar_frame_id_1"  default="leftVLP" /> -->
+  <!-- <arg name="lidar_lidar_frame_id_2"  default="rightVLP" /> -->
   <arg name="lidar_camera_1" default="/ouster_front/os1_cloud_node/points" />
   <arg name="lidar_camera_2" default="/images" />
   <arg name="lidar_imu_1"    default="/ouster_front/os1_cloud_node/points" />
@@ -23,22 +34,21 @@
   <arg name="camera_imu_2"   default="/odoms" />
   <arg name="ditu_path"      default="/home/lrh/lrh_workspace/lidar_data/jiqun_ditu/ditu.txt" />
   <arg name="img_path"      default="/home/lrh/lrh_workspace/lidar_data/jiqun_ditu/ditu.txt" />
-  <!-- <arg name="lidar_lidar_frame_id_1"  default="front64/os1_lidar" /> -->
-
   <arg name="thod_x"  default="10" />
   <arg name="thod_y"  default="10" />
   <arg name="thod_z"  default="10" />
   <arg name="param4num"  default="3" />
-  
-    <arg name="roll" default="0" />
-    <arg name="pitch" default="0" />
-    <arg name="yaw" default="0" />
-    <param name="roll" value="$(arg roll)" />
-    <param name="pitch" value="$(arg pitch)" />
-    <param name="yaw" value="$(arg yaw)" />
-    
+  <arg name="roll" default="0.0" />
+  <arg name="pitch" default="0.0" />
+  <arg name="yaw" default="0.0" />
+  <!-- <arg name="roll" default="0.04" />
+  <arg name="pitch" default="0.02" />
+  <arg name="yaw" default="-2.38" /> -->
+  <param name="roll" value="$(arg roll)" />
+  <param name="pitch" value="$(arg pitch)" />
+  <param name="yaw" value="$(arg yaw)" />
 
-  <param name="base_lidar" value="$(arg base_lidar)" />
+  <!-- <param name="base_lidar" value="$(arg base_lidar)" />
   <param name="base_lidar_frame_id" value="$(arg base_lidar_frame_id)" />
   <param name="sensor_onlyone" value="$(arg sensor_onlyone)" />
   <param name="sensor_onlyone_frame_id" value="$(arg sensor_onlyone_frame_id)" />
@@ -46,6 +56,9 @@
   <param name="lidar_lidar_2"  value="$(arg lidar_lidar_2)" />
   <param name="lidar_radar_1"  value="$(arg lidar_radar_1)" />
   <param name="lidar_radar_2"  value="$(arg lidar_radar_2)" />
+  <param name="lidar_lidar_frame_id_1"   value="$(arg lidar_lidar_frame_id_1)" />
+  <param name="lidar_lidar_frame_id_2"   value="$(arg lidar_lidar_frame_id_2)" /> -->
+
   <param name="lidar_camera_1" value="$(arg lidar_camera_1)" />
   <param name="lidar_camera_2" value="$(arg lidar_camera_2)" />
   <param name="lidar_imu_1"    value="$(arg lidar_imu_1)" />
@@ -53,8 +66,7 @@
   <param name="camera_imu_1"   value="$(arg camera_imu_1)" />
   <param name="camera_imu_2"   value="$(arg camera_imu_2)" />
   <param name="ditu_path"      value="$(arg ditu_path)"/>
-  <param name="lidar_lidar_frame_id_1"   value="$(arg lidar_lidar_frame_id_1)" />
-  <param name="lidar_lidar_frame_id_2"   value="$(arg lidar_lidar_frame_id_2)" />
+
   <param name="thod_x"  value="$(arg thod_x)" />
   <param name="thod_y"  value="$(arg thod_y)" />
   <param name="thod_z"  value="$(arg thod_z)" />

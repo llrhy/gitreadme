@@ -389,19 +389,6 @@ pcl_msgs_generate_messages_eus/fast:
 .PHONY : pcl_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named align_mainwindow
-
-# Build rule for target.
-align_mainwindow: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 align_mainwindow
-.PHONY : align_mainwindow
-
-# fast build rule for target.
-align_mainwindow/fast:
-	$(MAKE) -f lidar_align_tool/CMakeFiles/align_mainwindow.dir/build.make lidar_align_tool/CMakeFiles/align_mainwindow.dir/build
-.PHONY : align_mainwindow/fast
-
-#=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_py
 
 # Build rule for target.
@@ -1337,19 +1324,6 @@ align_adjust_node_autogen/fast:
 	$(MAKE) -f lidar_align_tool/CMakeFiles/align_adjust_node_autogen.dir/build.make lidar_align_tool/CMakeFiles/align_adjust_node_autogen.dir/build
 .PHONY : align_adjust_node_autogen/fast
 
-#=============================================================================
-# Target rules for targets named align_mainwindow_autogen
-
-# Build rule for target.
-align_mainwindow_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 align_mainwindow_autogen
-.PHONY : align_mainwindow_autogen
-
-# fast build rule for target.
-align_mainwindow_autogen/fast:
-	$(MAKE) -f lidar_align_tool/CMakeFiles/align_mainwindow_autogen.dir/build.make lidar_align_tool/CMakeFiles/align_mainwindow_autogen.dir/build
-.PHONY : align_mainwindow_autogen/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1380,7 +1354,6 @@ help:
 	@echo "... pcl_msgs_generate_messages_nodejs"
 	@echo "... nodelet_generate_messages_nodejs"
 	@echo "... pcl_msgs_generate_messages_eus"
-	@echo "... align_mainwindow"
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -1453,7 +1426,6 @@ help:
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... align_adjust_node_autogen"
-	@echo "... align_mainwindow_autogen"
 .PHONY : help
 
 

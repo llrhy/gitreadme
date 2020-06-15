@@ -1,11 +1,5 @@
-
 #include "rostest/main_window.h"
-#include <iostream>
-#include <QString>
-#include <QtWidgets>
-#include <QMessageBox>
-#include <QFileDialog>
-#include <QFileInfo>
+
 
 namespace waytous{
 namespace calibration{
@@ -16,6 +10,8 @@ MainWindowDesign::MainWindowDesign(ros::NodeHandle node, QWidget *parent) :
 {
   ui->setupUi(this);                                                     // Calling this incidentally connects all ui's triggers to on_...() callbacks in this class.
   setWindowIcon(QIcon(":/images/icon.png"));
+  pub_sensors_topic1_  =  node.advertise<std_msgs::String>("sensor_topic_frame1",1);
+  pub_sensors_topic2_  =  node.advertise<std_msgs::String>("sensor_topic_frame2",1);
   pub_sensors_name_ = node.advertise<std_msgs::String>("sensors",1);
   pub_save_         = node.advertise<std_msgs::String>("save",1);
   pub_trans_        = node.advertise<std_msgs::String>("trans",1);
@@ -63,9 +59,18 @@ void MainWindowDesign::on_pushButton_clicked()
     std::string topic2  = (ui->comboBox_3->currentText()).toStdString();
     std::string frame2  = (ui->comboBox_4->currentText()).toStdString();
     std::string sensors = (ui->comboBox_5->currentText()).toStdString();
+    std::string sensor_info = sensors + " " + topic1+ " "  + frame1+ " "  + topic2+ " "  + frame2;
+    // std::string sensor_info = sensors ;
+
     std_msgs::String msg_sensors;
-    msg_sensors.data = sensors.c_str();
+    msg_sensors.data = sensor_info.c_str();
     pub_sensors_name_.publish(msg_sensors);
+
+    //  std_msgs::String msg_sensor_topic1,msg_sensor_topic2;
+    //  msg_sensor_topic1.data = (topic1 + " " + frame1).c_str();
+    //  msg_sensor_topic2.data = (topic1 + " " + frame1).c_str();
+    //  pub_sensors_topic1_.publish(msg_sensor_topic1);
+    //  pub_sensors_topic2_.publish(msg_sensor_topic2);
 }
 
 void MainWindowDesign::on_pushButton_2_clicked()

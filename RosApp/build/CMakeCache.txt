@@ -327,7 +327,7 @@ FLANN_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
 GMock_DIR:PATH=GMock_DIR-NOTFOUND
 
 //Path to a file.
-GTEST_INCLUDE_DIR:PATH=/usr/include
+GTEST_INCLUDE_DIR:PATH=/usr/local/include
 
 //Path to a library.
 GTEST_LIBRARY:FILEPATH=/usr/local/lib/libgtest.a
@@ -591,10 +591,10 @@ QHULL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libqhull.so
 QHULL_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libqhull.so
 
 //The directory containing a CMake configuration file for Qt5Core.
-Qt5Core_DIR:PATH=/home/huituo/anaconda3/lib/cmake/Qt5Core
+Qt5Core_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Core
 
 //The directory containing a CMake configuration file for Qt5Gui.
-Qt5Gui_DIR:PATH=/home/huituo/anaconda3/lib/cmake/Qt5Gui
+Qt5Gui_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui
 
 //The directory containing a CMake configuration file for Qt5Network.
 Qt5Network_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Network
@@ -603,7 +603,7 @@ Qt5Network_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Network
 Qt5WebKit_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5WebKit
 
 //The directory containing a CMake configuration file for Qt5Widgets.
-Qt5Widgets_DIR:PATH=/home/huituo/anaconda3/lib/cmake/Qt5Widgets
+Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
 
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5

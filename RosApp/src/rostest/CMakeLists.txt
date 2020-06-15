@@ -3,6 +3,7 @@ project(rostest)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 add_compile_options(-std=c++11)
+#SET(CMAKE_CXX_FLAGS "-std=c++11 -O2 -g -Wall ${CMAKE_CXX_FLAGS}")
 
 find_package(Qt5Widgets REQUIRED)
 find_package(Eigen3 REQUIRED)

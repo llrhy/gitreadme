@@ -19,6 +19,13 @@
 #ifndef GUI_SRC_CALIBRATION_MAIN_WINDOW_H
 #define GUI_SRC_CALIBRATION_MAIN_WINDOW_H
 
+#include <iostream>
+#include <QString>
+#include <QtWidgets/QApplication>
+#include <QMessageBox>
+#include <QFileDialog>
+#include <QFileInfo>
+
 #include <QMainWindow>
 #include <ros/package.h>
 #include "ui_main_window.h"
@@ -68,6 +75,7 @@ public slots:
     
 private:
   ros::Publisher pub_sensors_name_,pub_save_,pub_trans_;
+  ros::Publisher pub_sensors_topic1_,pub_sensors_topic2_;
   
 };
 

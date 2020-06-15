@@ -54,18 +54,17 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/pcl-1.8"
   "/usr/include/ni"
   "/usr/include/openni2"
-  "/home/huituo/anaconda3/include/qt"
-  "/home/huituo/anaconda3/include/qt/QtWidgets"
-  "/home/huituo/anaconda3/include/qt/QtGui"
-  "/home/huituo/anaconda3/include/qt/QtCore"
-  "/home/huituo/anaconda3/./mkspecs/linux-g++"
+  "/usr/include/x86_64-linux-gnu/qt5"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
   "/home/huituo/workspace/waytous/RosApp/src/lidar_align_tool/include"
   "/home/huituo/workspace/waytous/RosApp/src/lidar_align_tool/include/lidar_align_tool"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/huituo/workspace/waytous/RosApp/build/lidar_align_tool/CMakeFiles/align_mainwindow.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

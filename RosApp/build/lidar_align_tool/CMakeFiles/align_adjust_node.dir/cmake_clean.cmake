@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "align_adjust_node_autogen"
   "CMakeFiles/align_adjust_node_autogen.dir/AutogenOldSettings.cmake"
-  "align_mainwindow_autogen"
-  "CMakeFiles/align_mainwindow_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/align_adjust_node.dir/src/adjust_node.cc.o"
   "CMakeFiles/align_adjust_node.dir/src/main.cc.o"
   "CMakeFiles/align_adjust_node.dir/align_adjust_node_autogen/mocs_compilation.cpp.o"
